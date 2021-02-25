@@ -1,40 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nav bar with logo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="ProductPageStyles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <body>
+        <!-- logo with headings section -->
+        <nav class="nav">
+            <div class="nav__center container">
+                <div class="nav__logo">
+                    <h1 class="logo">SHOPI<span>Q</span></h1>
+                </div>
+
+                <ul class="nav__list">
+
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <svg>
+                    <use xlink:href="./images/sprite.svg#icon-menu"></use>
+                  </svg>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="text-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus asperiores iure quisquam non in rem numquam consequuntur, quidem debitis unde quo pariatur minus doloribus ab. Unde perspiciatis esse quisquam officia.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptatum fuga nam. Nulla, ea accusamus!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, cupiditate, doloribus repudiandae dolores, reiciendis mollitia quam hic aliquam nulla maxime deserunt velit sequi fuga. Ea asperiores quisquam adipisci atque pariatur molestiae
+                    dolorum, corporis labore voluptatum consectetur at facere excepturi. Nisi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nemo aperiam qui inventore, ducimus, sint tenetur ipsa harum laboriosam dolores natus debitis, voluptate sit accusantium hic ratione libero voluptatibus id in exercitationem
+                    expedita culpa illo obcaecati ab! Fuga, consequatur.</p>
+            </div>
+
+            <div class="form-wrapper">
+                <!-- SIGN in form  -->
+                <h1>Sign In</h1>
+                <form>
+                    <label for="User Name">User Name:</label>
+                    <input type="username" id="username" name="username" placeholder="Your Name">
+
+                    <label for="email">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password">
+                    <input type="submit"></input>
+                </form>
+            </div>
+        </div>
+    </body>
+
 </head>
-
-<body>
-    <header id="showcase">
-        <h1> WELCOME :D</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <a href="#" class="button">Read More</a>
-    </header>
-    <section id="section-a">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis officiis molestias eius iure quam veniam quod reiciendis asperiores hic magni recusandae unde totam aliquam, voluptatum est quo pariatur ut doloribus.
-    </section>
-    <section id="section-b">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis officiis molestias eius iure quam veniam quod reiciendis asperiores hic magni recusandae unde totam aliquam, voluptatum est quo pariatur ut doloribus.
-    </section>
-    <section id="secion-c">
-        <div class="box1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eligendi itaque delectus porro corporis, error fugiat dolore nobis ipsum quia qui cum nostrum hic, neque placeat inventore, deleniti iste officiis.
-        </div>
-        <div class="box2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eligendi itaque delectus porro corporis, error fugiat dolore nobis ipsum quia qui cum nostrum hic, neque placeat inventore, deleniti iste officiis.
-        </div>
-        <div class="box3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eligendi itaque delectus porro corporis, error fugiat dolore nobis ipsum quia qui cum nostrum hic, neque placeat inventore, deleniti iste officiis.
-        </div>
-    </section>
-
-
-
-</body>
 
 </html>
