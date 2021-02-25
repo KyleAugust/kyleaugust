@@ -1,0 +1,164 @@
+:root {
+    --black: #222;
+    --white: #fff;
+    --default: #0751a5;
+    --orange: #ff7417;
+    --yellow: #d1b307;
+    --grey: #a0a3ad;
+    --grey2: #f9fafd;
+    --warn: #e71247;
+}
+
+
+/* Navigation */
+
+.nav__center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav__logo {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.nav__logo span {
+    color: var(--orange);
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ----- NAVBAR changes header section  ----*/
+
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+/* Navigation */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    line-height: 1rem;
+    background-color: var(--black);
+}
+
+.nav__center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav__logo {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+
+/* .nav__logo span {
+    color: var(--orange);
+} */
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+
+/* aswrfteher */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#our {
+    text-align: center;
+    font-size: 40px;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#info img {
+    width: 100%;
+}
+
+#info img:hover {
+    border-top-left-radius: 50px;
+}
+
+.img {
+    box-sizing: border-box;
+    box-shadow: 12px 10px 12px rgb(rgb(128, 128, 128), rgb(82, 82, 82), blue);
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
