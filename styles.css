@@ -1,77 +1,96 @@
-* {
+body {
+    background: linear-gradient(to right, #ffffff 10%, #ffffff);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+h1 {
     margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    background-color: rgb(241, 98, 241);
-    line-height: 1.6;
 }
 
-#showcase {
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px;
+.logo {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#showcase h1 {
-    font-size: 50px;
-    line-height: 1.2;
+.elementsContainer {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    float: right;
+    margin-right: 100px;
 }
 
-#showcase p {
-    font-size: 20px;
-}
-
-#showcase .button {
-    font-size: 18px;
-    text-decoration: whitesmoke;
-    color: whitesmoke;
-    border: violet 1px solid;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-#showcase .button:hover {
-    background: cornflowerblue;
+.material-icons {
+    font-size: 26;
     color: rgb(0, 0, 0);
 }
 
-#section-a {
+.wrapper {
+    background: linear-gradient(to right, #014d6f 10%, #2b8e8b);
+}
+
+
+/* --- Password and email sign- in --- */
+
+.form-wrapper {
+    position: absolute;
+    top: 400px;
+    left: 1070px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 400px;
     padding: 20px;
-    background-color: darkgray;
-    color: black;
-    text-align: center;
+    border: 1px solid #000000;
 }
 
-#section-b {
+
+/* h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 30px;
+} */
+
+label {
+    color: #ca5a0f;
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 0;
+    background: linear-gradient(to right, #753213 10%, #420968);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    color: white;
+    background: #420968;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #753213;
+}
+
+.text-container {
+    position: absolute;
+    top: 400px;
+    left: 370px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 400px;
     padding: 20px;
-    background-color: rgb(161, 161, 161);
-    color: black;
-    text-align: center;
-}
-
-#section-c {
-    display: flex;
-}
-
-#section-c .box1,
-#section-c .box3 {
-    background-color: rgb(69, 129, 241);
-    color: #fff;
-}
-
-#section-c .box2 {
-    background: crimson;
 }
