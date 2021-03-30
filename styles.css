@@ -59,7 +59,7 @@ h1 {
 } */
 
 label {
-    color: #ca5a0f;
+    color: #000000;
     font-size: large;
 }
 
@@ -77,12 +77,12 @@ input {
 input[type="submit"] {
     font-size: 20px;
     color: white;
-    background: #420968;
+    background: #753213;
 }
 
 input[type="submit"]:hover {
     cursor: pointer;
-    background: #753213;
+    background: #ff7b00ce;
 }
 
 .text-container {
